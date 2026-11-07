@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #eaf2ff;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #0755aa;
+        }
+
+        button {
+            background: blue;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>SELAMAT DATANG</h1>
+    <p>Ini adalah website pertama saya.</p>
+
+    <button onclick="alert('Website berhasil dibuat!')">
+        Klik Saya
+    </button>
+
+</body>
+</html>
